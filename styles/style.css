@@ -1,7 +1,28 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.behindAll {
+    background-color: #716096;
+}
+
+.footerContent {
+    background-color: #46b3f0;
+}
+
+.mainContent {
+    background-color: #e7e4d3;
+    color: #0d1348;
+}
+
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: #0d1348;
+    background-color: #46b3f0;
+    border: none;
+
 }
 
 .nav-logo {

@@ -7,7 +7,7 @@ import "./styles/style.css"
 
 function Page() {
     return (
-        <div>
+        <div className="behindAll">
             <Header />
             <MainContent />
             <Footer />
