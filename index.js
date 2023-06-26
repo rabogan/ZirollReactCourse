@@ -1,9 +1,9 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import "./styles/style.css";
-import Header from "./components/Header";
-import MainContent from "./components/MainContent";
-import Footer from "./components/Footer";
+import Header from "./components/Header"
+import MainContent from "./components/MainContent"
+import Footer from "./components/Footer"
+import "./styles/style.css"
 
 function Page() {
     return (
@@ -15,4 +15,4 @@ function Page() {
     )
 }
 
-ReactDOM.render(<Page />, document.getElementById("root"))
+ReactDOM.render(<Page />, document.getElementById("root"));
